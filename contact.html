@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact CityDrive or submit a car rental booking enquiry.">
+  <title>Contact &amp; Booking Enquiry | CityDrive</title><link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header"><div class="container nav-wrap"><a class="brand" href="index.html"><span class="brand-mark">CD</span>CityDrive</a><nav class="main-nav" aria-label="Main navigation"><ul><li><a href="index.html">Home</a></li><li><a href="cars.html">Find a Car</a></li><li><a href="vehicle.html">Vehicle Details</a></li><li><a href="locations.html">Locations &amp; Guide</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="contact.html" aria-current="page">Contact</a></li><li><a href="compliance.html">Compliance</a></li></ul></nav></div></header>
+  <main id="main">
+    <section class="page-hero"><div class="container"><span class="eyebrow">We are here to help</span><h1>Let’s plan your drive.</h1><p>Send a booking enquiry and our team will confirm availability, explain the options and prepare a clear quote.</p></div></section>
+    <section class="section"><div class="container contact-layout">
+      <aside class="contact-panel"><span class="eyebrow">Contact CityDrive</span><h2>Talk to a real person.</h2><p>Need help choosing a car or understanding the rental requirements? Contact our Sydney team.</p><ul class="contact-list"><li><strong>Phone</strong><br><a href="tel:+61290001234">(02) 9000 1234</a></li><li><strong>Email</strong><br><a href="mailto:hello@citydrive.example">hello@citydrive.example</a></li><li><strong>Customer support</strong><br>Monday–Friday: 7:00 am–7:00 pm<br>Weekends: 8:00 am–5:00 pm</li><li><strong>Roadside assistance</strong><br>Available 24 hours during your rental</li></ul></aside>
+      <section class="form-card" aria-labelledby="form-title"><span class="eyebrow">Booking enquiry</span><h2 id="form-title">Tell us what you need.</h2><p>Fields marked <span class="required">*</span> are required.</p>
+        <form action="thankyou.html" method="get">
+          <div class="form-grid">
+            <div class="form-group"><label for="name">Full name <span class="required">*</span></label><input id="name" name="name" type="text" autocomplete="name" required placeholder="e.g. Alex Morgan"></div>
+            <div class="form-group"><label for="email">Email address <span class="required">*</span></label><input id="email" name="email" type="email" autocomplete="email" required placeholder="alex@example.com"></div>
+            <div class="form-group"><label for="phone">Phone number</label><input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="04xx xxx xxx"></div>
+            <div class="form-group"><label for="location">Pickup location <span class="required">*</span></label><select id="location" name="location" required><option value="">Choose a location</option><option>Sydney CBD</option><option>Sydney Airport</option><option>Parramatta</option></select></div>
+            <div class="form-group"><label for="pickup-date">Pickup date <span class="required">*</span></label><input id="pickup-date" name="pickup-date" type="date" required></div>
+            <div class="form-group"><label for="return-date">Return date <span class="required">*</span></label><input id="return-date" name="return-date" type="date" required></div>
+            <div class="form-group full"><label for="vehicle-type">Preferred vehicle <span class="required">*</span></label><select id="vehicle-type" name="vehicle-type" required><option value="">Choose a vehicle type</option><option>City Compact</option><option>Urban Hybrid</option><option>Family SUV</option><option>Executive Sedan</option><option>Adventure 4WD</option><option>Sport Coupe</option></select></div>
+            <div class="form-group full"><label for="message">Extra details</label><textarea id="message" name="message" placeholder="Tell us about child seats, extra drivers, flight times or accessibility needs."></textarea></div>
+            <div class="form-group full"><label><input style="width:auto;min-height:auto;margin-right:8px" type="checkbox" name="privacy" required> I agree that CityDrive may use these details to respond to my rental enquiry. <span class="required">*</span></label></div>
+            <div class="form-group full"><button class="button button-dark" type="submit">Send booking enquiry</button></div>
+          </div>
+          <p class="form-note">This student demonstration does not store or transmit enquiry data to a real booking system. Submitting the form opens the confirmation page.</p>
+        </form>
+      </section>
+    </div></section>
+  </main>
+  <footer class="site-footer"><div class="container"><div class="footer-grid"><div><a class="brand" href="index.html"><span class="brand-mark">CD</span>CityDrive</a><p>Flexible city car rental for workdays, weekends and everything between.</p></div><div><h3>Explore</h3><ul><li><a href="cars.html">Find a Car</a></li><li><a href="locations.html">Locations &amp; Guide</a></li><li><a href="gallery.html">Gallery</a></li></ul></div><div><h3>Support</h3><ul><li><a href="contact.html">Contact Us</a></li><li><a href="compliance.html">Development &amp; Compliance</a></li><li><a href="tel:+61290001234">(02) 9000 1234</a></li></ul></div></div><div class="footer-bottom">&copy; 2026 CityDrive Car Rental. Student project for BN109 Web and Multimedia Systems.</div></div></footer>
+</body>
+</html>

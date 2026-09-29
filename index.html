@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CityDrive makes reliable city car rental simple for tourists, families and business travellers.">
+  <title>CityDrive Car Rental | Your city, your way</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html"><span class="brand-mark">CD</span>CityDrive</a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="cars.html">Find a Car</a></li>
+          <li><a href="vehicle.html">Vehicle Details</a></li>
+          <li><a href="locations.html">Locations &amp; Guide</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="compliance.html">Compliance</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-content">
+        <span class="eyebrow">Simple rentals. Better journeys.</span>
+        <h1>Your city.<br>Your way.</h1>
+        <p>From quick business trips to family weekends, CityDrive puts a clean, reliable car within easy reach—without the confusing fine print.</p>
+        <div class="button-row">
+          <a class="button" href="cars.html">Browse available cars</a>
+          <a class="button button-outline" href="locations.html">View pickup locations</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="quick-search" aria-label="Quick car search">
+      <form class="container quick-search-inner" action="cars.html" method="get">
+        <div>
+          <label for="quick-location">Pickup location</label>
+          <select id="quick-location" name="location">
+            <option>Sydney CBD</option>
+            <option>Sydney Airport</option>
+            <option>Parramatta</option>
+          </select>
+        </div>
+        <div>
+          <label for="quick-date">Pickup date</label>
+          <input id="quick-date" name="date" type="date" required>
+        </div>
+        <div>
+          <label for="quick-type">Vehicle type</label>
+          <select id="quick-type" name="type">
+            <option>Any vehicle</option>
+            <option>Compact</option>
+            <option>SUV</option>
+            <option>Sedan</option>
+          </select>
+        </div>
+        <button class="button button-dark" type="submit">Find my car</button>
+      </form>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Why CityDrive</span>
+          <h2>Everything you need. Nothing you don’t.</h2>
+          <p>Clear daily pricing, convenient pickup points and friendly support make renting easy—even if it is your first time.</p>
+        </div>
+        <div class="grid-4">
+          <article class="feature-card"><div class="icon-box">$</div><h3>Clear pricing</h3><p>Know the daily rate and inclusions before you enquire.</p></article>
+          <article class="feature-card"><div class="icon-box">24</div><h3>Roadside support</h3><p>Help is available around the clock during your rental.</p></article>
+          <article class="feature-card"><div class="icon-box">3×</div><h3>Easy pickup</h3><p>Choose from three convenient Sydney locations.</p></article>
+          <article class="feature-card"><div class="icon-box">✓</div><h3>Quality checked</h3><p>Every vehicle is cleaned and inspected before pickup.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-tint">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Popular choices</span>
+          <h2>A car for every kind of trip.</h2>
+        </div>
+        <div class="grid-3">
+          <article class="card car-card">
+            <img src="images/city-compact.jpg" alt="Red compact car parked in the city">
+            <div class="card-content">
+              <span class="availability">Available today</span><h3>City Compact</h3>
+              <div class="tag-row"><span class="tag">5 seats</span><span class="tag">Automatic</span><span class="tag">Petrol</span></div>
+              <div class="price-line"><span class="price">$59 <small>/ day</small></span></div>
+              <a class="button button-dark" href="vehicle.html">View details</a>
+            </div>
+          </article>
+          <article class="card car-card">
+            <img src="images/family-suv.jpg" alt="Family SUV on an open road">
+            <div class="card-content">
+              <span class="availability">Available today</span><h3>Family SUV</h3>
+              <div class="tag-row"><span class="tag">7 seats</span><span class="tag">Automatic</span><span class="tag">Hybrid</span></div>
+              <div class="price-line"><span class="price">$109 <small>/ day</small></span></div>
+              <a class="button button-dark" href="vehicle.html">View details</a>
+            </div>
+          </article>
+          <article class="card car-card">
+            <img src="images/executive-sedan.jpg" alt="Dark executive sedan in a city setting">
+            <div class="card-content">
+              <span class="availability">Limited availability</span><h3>Executive Sedan</h3>
+              <div class="tag-row"><span class="tag">5 seats</span><span class="tag">Automatic</span><span class="tag">Premium</span></div>
+              <div class="price-line"><span class="price">$129 <small>/ day</small></span></div>
+              <a class="button button-dark" href="vehicle.html">View details</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-sm">
+      <div class="container cta-band">
+        <div><h2>First time renting?</h2><p>Our straightforward rental guide covers licences, deposits, pickup and protection.</p></div>
+        <a class="button" href="locations.html#rental-guide">Read the rental guide</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div><a class="brand" href="index.html"><span class="brand-mark">CD</span>CityDrive</a><p>Flexible city car rental for workdays, weekends and everything between.</p></div>
+        <div><h3>Explore</h3><ul><li><a href="cars.html">Find a Car</a></li><li><a href="locations.html">Locations &amp; Guide</a></li><li><a href="gallery.html">Gallery</a></li></ul></div>
+        <div><h3>Support</h3><ul><li><a href="contact.html">Contact Us</a></li><li><a href="compliance.html">Development &amp; Compliance</a></li><li><a href="tel:+61290001234">(02) 9000 1234</a></li></ul></div>
+      </div>
+      <div class="footer-bottom">&copy; 2026 CityDrive Car Rental. Student project for BN109 Web and Multimedia Systems.</div>
+    </div>
+  </footer>
+</body>
+</html>

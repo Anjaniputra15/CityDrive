@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CityDrive website planning, development, testing and compliance documentation.">
+  <title>Development &amp; Compliance | CityDrive</title><link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header"><div class="container nav-wrap"><a class="brand" href="index.html"><span class="brand-mark">CD</span>CityDrive</a><nav class="main-nav" aria-label="Main navigation"><ul><li><a href="index.html">Home</a></li><li><a href="cars.html">Find a Car</a></li><li><a href="vehicle.html">Vehicle Details</a></li><li><a href="locations.html">Locations &amp; Guide</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="contact.html">Contact</a></li><li><a href="compliance.html" aria-current="page">Compliance</a></li></ul></nav></div></header>
+  <main id="main">
+    <section class="page-hero"><div class="container"><span class="eyebrow">Project documentation</span><h1>Development &amp; Compliance</h1><p>This page records how the CityDrive website was planned, designed, developed and tested, together with the ethical and legal principles considered.</p></div></section>
+
+    <section class="section"><div class="container"><div class="section-head"><span class="eyebrow">Development process</span><h2>From brief to working website.</h2><p>A user-centred, mobile-first process kept the eight-page site complete, consistent and easy for first-time renters to understand.</p></div>
+      <div class="timeline">
+        <article class="timeline-step"><div class="feature-number">1</div><div><h3>Plan</h3><p>The assignment brief was converted into a content checklist covering all eight required pages, booking form fields, form confirmation flow and compliance topics. The primary audiences were defined as tourists, business travellers, families and short-term local renters.</p></div></article>
+        <article class="timeline-step"><div class="feature-number">2</div><div><h3>Design</h3><p>A clear navy-and-lime visual system was selected to communicate trust, energy and visibility. Page layouts use strong headings, short content sections, clear buttons and repeated navigation. Wireframes were used to set the order of content before styling.</p></div></article>
+        <article class="timeline-step"><div class="feature-number">3</div><div><h3>Develop</h3><p>Semantic HTML5 structures the content while one external CSS file controls colour, typography, spacing, cards, forms and responsive breakpoints. Images are stored locally, links use relative paths, and the enquiry form uses an HTML action to open the Thank You page without requiring a backend.</p></div></article>
+        <article class="timeline-step"><div class="feature-number">4</div><div><h3>Test</h3><p>Each page was checked for working navigation, correct image paths, readable content and consistent styling. Required form validation and the Thank You redirect were checked, along with keyboard focus, image alternative text and layouts at desktop, tablet and mobile widths.</p></div></article>
+      </div>
+    </div></section>
+
+    <section class="section section-tint"><div class="container"><div class="section-head"><span class="eyebrow">Planning evidence</span><h2>Sitemap and wireframe.</h2></div>
+      <div class="grid-2">
+        <div><h3>Website sitemap</h3><div class="sitemap" role="img" aria-label="Sitemap showing Home linked to Find a Car, Vehicle Details, Locations and Rental Guide, Gallery, Contact Us, Thank You, and Development and Compliance"><div class="site-node">Home</div><div class="site-branches"><span>Find a Car</span><span>Vehicle Details</span><span>Locations &amp; Guide</span><span>Gallery</span><span>Contact Us</span><span>Thank You</span><span>Development</span><span>Compliance</span></div></div><p style="margin-top:14px">The global header connects the main content pages. Vehicle cards lead to details or enquiries, and the Contact form leads to Thank You.</p></div>
+        <div><h3>Home page wireframe</h3><div class="wireframe" role="img" aria-label="Home page wireframe showing header, hero, search, three feature cards, vehicle cards and footer"><div class="wf-block">Header + navigation</div><div class="wf-block wf-hero">Hero message + main call to action</div><div class="wf-block">Quick search</div><div class="wf-row"><div class="wf-block">Benefit</div><div class="wf-block">Benefit</div><div class="wf-block">Benefit</div></div><div class="wf-row"><div class="wf-block">Vehicle</div><div class="wf-block">Vehicle</div><div class="wf-block">Vehicle</div></div><div class="wf-block">Footer</div></div></div>
+      </div>
+    </div></section>
+
+    <section class="section"><div class="container"><div class="section-head"><span class="eyebrow">Testing summary</span><h2>Checks completed.</h2><p>Testing focused on the requirements that directly affect a visitor’s ability to find information and complete an enquiry.</p></div>
+      <div class="card" style="overflow-x:auto"><table class="info-table"><thead><tr><th>Test area</th><th>Method and expected result</th><th>Status</th></tr></thead><tbody>
+        <tr><th>Page links</th><td>Opened navigation and call-to-action links on every page. Each relative link loads the intended HTML page.</td><td><span class="test-status">Passed</span></td></tr>
+        <tr><th>Navigation</th><td>Confirmed a consistent header, visible current-page state, keyboard focus and access to all primary pages.</td><td><span class="test-status">Passed</span></td></tr>
+        <tr><th>Images</th><td>Checked every image file loads from the local images folder, preserves proportion and includes meaningful alternative text.</td><td><span class="test-status">Passed</span></td></tr>
+        <tr><th>Form submission</th><td>Tested required name, email, location, dates, vehicle and privacy fields. Valid submission opens thankyou.html.</td><td><span class="test-status">Passed</span></td></tr>
+        <tr><th>Responsive layout</th><td>Reviewed desktop, tablet and mobile layouts. Columns stack, navigation wraps and form controls remain readable.</td><td><span class="test-status">Passed</span></td></tr>
+        <tr><th>Accessibility</th><td>Checked labels, heading order, alt text, colour contrast, skip links and visible keyboard focus.</td><td><span class="test-status">Passed</span></td></tr>
+      </tbody></table></div>
+    </div></section>
+
+    <section class="section section-dark"><div class="container"><div class="section-head"><span class="eyebrow">Responsible web practice</span><h2>Compliance considerations.</h2><p>The project addresses four important areas: privacy, security, copyright and appropriate content.</p></div>
+      <div class="grid-2">
+        <article class="feature-card" style="color:#172633"><div class="icon-box">P</div><h3>Privacy</h3><p>The enquiry form requests only information needed to respond: name, contact details, location, dates and vehicle preference. A clear consent checkbox explains the purpose. The student demonstration has no database, analytics tracker or marketing opt-in, so entered details are not stored by the site.</p></article>
+        <article class="feature-card" style="color:#172633"><div class="icon-box">S</div><h3>Security</h3><p>Appropriate input types and required-field validation reduce accidental errors. The form avoids passwords, driver licence numbers, card numbers and other unnecessary sensitive data. A real deployment would additionally require HTTPS, secure server-side validation, access controls and a retention/deletion policy.</p></article>
+        <article class="feature-card" style="color:#172633"><div class="icon-box">C</div><h3>Copyright</h3><p>Vehicle photographs were sourced from Unsplash for educational use under the Unsplash licence. Image filenames and this attribution provide a traceable record. Written content, branding and page layouts were created specifically for this student project; no other rental company’s logo or text is reproduced.</p><p><a href="https://unsplash.com/license">View the Unsplash licence</a></p></article>
+        <article class="feature-card" style="color:#172633"><div class="icon-box">A</div><h3>Censorship &amp; appropriate content</h3><p>Language and imagery are suitable for a general audience and avoid offensive or discriminatory material. Pricing is labelled as indicative, availability is not guaranteed, and safety guidance encourages lawful driving. The site does not glorify speeding, unsafe behaviour or impaired driving.</p></article>
+      </div>
+    </div></section>
+
+    <section class="section"><div class="container"><div class="section-head"><span class="eyebrow">Code and file organisation</span><h2>Maintainable by design.</h2><p>Files use the brief’s recommended names. All pages share <strong>css/style.css</strong>, while local photographs are kept in <strong>images/</strong>. Semantic elements such as header, nav, main, section, article, form and footer improve structure for users, browsers and future developers.</p></div><div class="notice"><strong>Scope note:</strong> CityDrive is a fictional educational website. Prices, addresses, availability and contact information are demonstration content and do not represent a real rental service.</div></div></section>
+  </main>
+  <footer class="site-footer"><div class="container"><div class="footer-grid"><div><a class="brand" href="index.html"><span class="brand-mark">CD</span>CityDrive</a><p>Flexible city car rental for workdays, weekends and everything between.</p></div><div><h3>Explore</h3><ul><li><a href="cars.html">Find a Car</a></li><li><a href="locations.html">Locations &amp; Guide</a></li><li><a href="gallery.html">Gallery</a></li></ul></div><div><h3>Support</h3><ul><li><a href="contact.html">Contact Us</a></li><li><a href="compliance.html">Development &amp; Compliance</a></li><li><a href="tel:+61290001234">(02) 9000 1234</a></li></ul></div></div><div class="footer-bottom">&copy; 2026 CityDrive Car Rental. Student project for BN109 Web and Multimedia Systems.</div></div></footer>
+</body>
+</html>
